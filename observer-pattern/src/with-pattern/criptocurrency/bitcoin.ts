@@ -1,4 +1,4 @@
-import { BitcoinPriceObserver } from "@/service/bitcoin-price-observer"
+import { BitcoinPriceObserver } from "@/with-pattern/service/bitcoin-price-observer"
 
 export class Bitcoin {
   constructor(
