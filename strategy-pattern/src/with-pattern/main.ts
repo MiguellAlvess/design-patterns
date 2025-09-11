@@ -1,6 +1,6 @@
 import express from "express"
-import { TaxCalculator } from "@/service/tax-calculator"
-import { TaxController } from "@/controller/tax-controller"
+import { TaxCalculator } from "./service/tax-calculator.js"
+import { TaxController } from "./controller/tax-controller.js"
 
 const app = express()
 

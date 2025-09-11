@@ -1,4 +1,4 @@
-import { TaxStrategyFactory, TaxType } from "@/factory/tax-strategy-factory"
+import { TaxStrategyFactory, TaxType } from "../factory/tax-strategy-factory.js"
 
 export class TaxCalculator {
   calculateTax(type: TaxType, amount: number): number {

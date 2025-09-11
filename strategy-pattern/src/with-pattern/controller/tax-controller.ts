@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
-import { TaxCalculator } from "@/service/tax-calculator"
-import { TaxType } from "@/factory/tax-strategy-factory"
+import { TaxCalculator } from "../service/tax-calculator.js"
+import { TaxType } from "../factory/tax-strategy-factory.js"
 
 export class TaxController {
   constructor(private readonly taxCalculator: TaxCalculator) {}

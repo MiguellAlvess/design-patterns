@@ -1,7 +1,7 @@
-import { TaxTypeInterface } from "@/contracts/tax-type-interface"
-import { ICMS } from "@/service/tax/icms"
-import { IPI } from "@/service/tax/ipi"
-import { ISS } from "@/service/tax/iss"
+import { TaxTypeInterface } from "../contracts/tax-type-interface.js"
+import { ICMS } from "../service/tax/icms.js"
+import { IPI } from "../service/tax/ipi.js"
+import { ISS } from "../service/tax/iss.js"
 
 export type TaxType = "ICMS" | "IPI" | "ISS"
 
